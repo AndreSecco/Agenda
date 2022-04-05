@@ -1,0 +1,102 @@
+/* Cabeçalho */
+.cabecalho{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color:rgb(247 247 247);
+    border: solid 1px #e2e2e2;
+}
+.data-atual{
+    background-color: rgb(247 247 247);
+    width: 103%;
+    text-align: center;
+}
+.data-atual{
+    border: solid 1px #d7d7d7;
+}
+.cabecalho-mes{
+    font-size:1.125em;
+    color: #007aff;
+    font-family: -apple-system,Segoe UI,Roboto,sans-serif;
+    font-weight: 400;
+    padding: 0 1.5em;
+    
+}
+.cabecalho-semana{
+    font-size:1.125em;
+    color: #007aff;
+    font-family: -apple-system,Segoe UI,Roboto,sans-serif;
+    font-weight: 400;
+    
+}
+
+.btn-cabecalho{
+    background-color: transparent;
+border: solid 0px;
+color: #007aff;
+font-size: 23px;
+}
+.calendario{    
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.semana-min{
+    display: inline-block;
+    width: 15%;
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+.btnDiaClick{
+    border-color: #007aff;
+    background: #007aff;
+    color: #fff;
+    border-radius: 50px;
+    
+}
+.btnDia{
+    width: 1.625em;
+    height: 1.625em;
+    margin: 0.1875em;
+    padding: 0;
+    line-height: 1.625em;
+    border: 2px solid transparent;
+    border-radius: 2em;
+    display: inline-block;
+    margin-right: 7%;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+}
+.btnSemanaMin{
+    display: inline-block;
+    width: 1.625em;
+    height: 1.625em;
+    margin: 0.1875em;
+    padding: 0;
+    line-height: 1.625em;
+    border: 2px solid transparent;
+    border-radius: 2em;
+    display: inline-block;
+    margin-right: 7%;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.semana-dia{
+    display: inline-block;
+    width: 15%;
+    font-size: 18px;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
